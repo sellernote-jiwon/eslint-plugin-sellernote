@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es2020", "esnext"],
+    "experimentalDecorators": true
+  },
+  "include": ["file.ts"],
+  "exclude": ["dist", "src"]
+}
