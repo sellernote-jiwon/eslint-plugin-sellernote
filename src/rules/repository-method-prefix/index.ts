@@ -13,7 +13,7 @@ type Options = [
 ];
 
 const createRule = ESLintUtils.RuleCreator(
-  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}`
+  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}.md`
 );
 
 export const repositoryMethodPrefix = createRule<Options, MessageIds>({
@@ -61,6 +61,11 @@ export const repositoryMethodPrefix = createRule<Options, MessageIds>({
           return;
         }
         if (node.key.type === AST_NODE_TYPES.Identifier) {
+          // `constructor`, `get', `set`은 검사 대상에서 제외
+          if (node.kind !== 'method') {
+            return;
+          }
+
           // 정규식 생성 (대소문자 구분)
           const regexPrefixes = new RegExp(`^(${options[0].allowPrefixes.join('|')})`);
 

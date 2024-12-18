@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sellernote",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ESLint plugin rules for Sellernote",
   "main": "dist/index.js",
   "keywords": [

@@ -23,6 +23,13 @@ ruleTester.run('repository-method-prefix', repositoryMethodPrefix, {
       }`,
       filename: 'bar.ts',
     },
+    {
+      code: `
+      class GoodFoo {
+        constructor() {}
+      }`,
+      filename: 'bar.impl.ts',
+    },
   ],
   invalid: [
     {

@@ -6,7 +6,7 @@ type MessageIds = 'issue:not-specify';
 type Options = [];
 
 const createRule = ESLintUtils.RuleCreator(
-  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}`
+  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}.md`
 );
 
 export const typeormColumnShouldSpecifyType = createRule<Options, MessageIds>({

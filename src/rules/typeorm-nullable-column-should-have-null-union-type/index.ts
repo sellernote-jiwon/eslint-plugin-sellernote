@@ -7,7 +7,7 @@ type MessageIds = 'issue:do-not-have';
 type Options = [];
 
 const createRule = ESLintUtils.RuleCreator(
-  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}`
+  (name) => `https://github.com/wisedog/eslint-plugin-sellernote/blob/main/docs/rules/${name}.md`
 );
 
 export const typeormNullableColumnShouldHaveNullUnionType = createRule<Options, MessageIds>({
