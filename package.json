@@ -15,12 +15,12 @@
   "author": "Jongha Kim <kim.jongha@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote"
+    "url": "https://github.com/sellernote-jiwon/eslint-plugin-shipda"
   },
   "bugs": {
-    "url": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote/issues"
+    "url": "https://github.com/sellernote-jiwon/eslint-plugin-shipda/issues"
   },
-  "homepage": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote",
+  "homepage": "https://github.com/sellernote-jiwon/eslint-plugin-shipda",
   "scripts": {
     "build": "tsc",
     "test": "jest",
