@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-sellernote",
-  "version": "0.1.0",
-  "description": "ESLint plugin rules for Sellernote",
+  "name": "eslint-plugin-shipda",
+  "version": "0.1.1",
+  "description": "ESLint plugin rules for Sellernote Shipda",
   "main": "dist/index.js",
   "keywords": [
     "eslint",
@@ -9,17 +9,18 @@
     "eslint-plugin",
     "nest.js",
     "nestjs",
-    "sellernote"
+    "sellernote",
+    "shipda"
   ],
   "author": "Jongha Kim <kim.jongha@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wisedog/eslint-plugin-sellernote"
+    "url": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote"
   },
   "bugs": {
-    "url": "https://github.com/wisedog/eslint-plugin-sellernote/issues"
+    "url": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote/issues"
   },
-  "homepage": "https://github.com/wisedog/eslint-plugin-sellernote",
+  "homepage": "https://github.com/sellernote-jiwon/eslint-plugin-sellernote",
   "scripts": {
     "build": "tsc",
     "test": "jest",

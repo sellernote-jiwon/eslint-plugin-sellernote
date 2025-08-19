@@ -49,7 +49,7 @@ export const repositoryMethodPrefix = createRule<Options, MessageIds>({
   },
   defaultOptions: [
     {
-      targetFilePattern: '\\.impl\\.ts$',
+      targetFilePattern: '\\.repository\\.ts$',
       allowPrefixes: ['findOne', 'findMany', 'update', 'delete', 'create'],
     },
   ],
