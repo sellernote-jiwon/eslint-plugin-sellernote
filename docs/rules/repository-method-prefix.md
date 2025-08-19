@@ -5,7 +5,7 @@
 Valid:
 
 ```ts
-// someRepo.impl.ts
+// someRepo.repository.ts
 class GoodFoo {
   findOneFoo() {
     return true;
@@ -16,7 +16,7 @@ class GoodFoo {
 Invalid:
 
 ```ts
-// someRepo.impl.ts
+// someRepo.repository.ts
 class BadFoo {
   getFoo() {
     return false;
@@ -31,6 +31,6 @@ class BadFoo {
 | Name                | Description                      | Type   | Default                                               |
 | :------------------ | :------------------------------- | :----- | :---------------------------------------------------- |
 | `allowPrefixes`     | Allowed prefixes for method name | Array  | [`findOne`, `findMany`, `update`, `delete`, `create`] |
-| `targetFilePattern` | The regex for target files       | String | `\.impl\.ts$`                                         |
+| `targetFilePattern` | The regex for target files       | String | `\.repository\.ts$`                                         |
 
 <!-- end auto-generated rule options list -->
