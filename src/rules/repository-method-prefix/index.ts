@@ -31,7 +31,7 @@ export const repositoryMethodPrefix = createRule<Options, MessageIds>({
           targetFilePattern: {
             description: 'The regex for target files',
             type: 'string',
-            default: '\\.impl\\.ts$',
+            default: '\\.repository\\.ts$',
           },
           allowPrefixes: {
             description: 'Allowed prefixes for method name',
@@ -49,7 +49,7 @@ export const repositoryMethodPrefix = createRule<Options, MessageIds>({
   },
   defaultOptions: [
     {
-      targetFilePattern: '\\.impl\\.ts$',
+      targetFilePattern: '\\.repository\\.ts$',
       allowPrefixes: ['findOne', 'findMany', 'update', 'delete', 'create'],
     },
   ],

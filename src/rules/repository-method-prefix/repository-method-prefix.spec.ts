@@ -28,7 +28,7 @@ ruleTester.run('repository-method-prefix', repositoryMethodPrefix, {
       class GoodFoo {
         constructor() {}
       }`,
-      filename: 'bar.impl.ts',
+      filename: 'bar.repository.ts',
     },
   ],
   invalid: [
@@ -39,7 +39,7 @@ ruleTester.run('repository-method-prefix', repositoryMethodPrefix, {
           return false;
         }
       }`,
-      filename: 'bar.impl.ts',
+      filename: 'bar.repository.ts',
       errors: [
         {
           messageId: 'issue:violate',
